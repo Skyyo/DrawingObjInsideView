@@ -20,25 +20,25 @@ class CustomAnimatingView : View {
     private lateinit var sunDrawable: Drawable
     private lateinit var moonDrawable: Drawable
 
-    private var baseSpeed: Float = 0.toFloat()
-    private var baseSizeSun: Float = 0.toFloat()
-    private var baseSizeMoon: Float = 0.toFloat()
+    private var baseSpeed: Float = 0F
+    private var baseSizeSun: Float = 0F
+    private var baseSizeMoon: Float = 0F
     private var currentPlayTime: Long = 0
 
     private class Sun {
-        var x: Float = 0.toFloat()
-        var y: Float = 0.toFloat()
-        var scale: Float = 0.toFloat()
-        var alpha: Float = 0.toFloat()
-        var speed: Float = 0.toFloat()
+        var x: Float = 0F
+        var y: Float = 0F
+        var scale: Float = 0F
+        var alpha: Float = 0F
+        var speed: Float = 0F
     }
 
     private class Moon {
-        var x: Float = 0.toFloat()
-        var y: Float = 0.toFloat()
-        var scale: Float = 0.toFloat()
-        var alpha: Float = 0.toFloat()
-        var speed: Float = 0.toFloat()
+        var x: Float = 0F
+        var y: Float = 0F
+        var scale: Float = 0F
+        var alpha: Float = 0F
+        var speed: Float = 0F
     }
 
     constructor(context: Context) : super(context) {
